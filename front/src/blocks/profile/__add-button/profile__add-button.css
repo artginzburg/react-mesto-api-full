@@ -1,0 +1,50 @@
+.profile__add-button {
+  position: absolute;
+
+  right: 0;
+
+  min-height: 50px;
+  min-width: 150px;
+
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 2px;
+
+  background-color: transparent;
+  background-image: url(../../../images/add-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: content-box;
+
+  cursor: pointer;
+
+  padding: calc((50px - 22px) / 2 - 1px);
+
+  transition-property: opacity, transform;
+  transition-duration: .2s;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.profile__add-button:active {
+  transform: scale(.95);
+}
+
+@media (hover: hover) {
+  .profile__add-button:hover {
+    opacity: .6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile__add-button {
+    position: unset;
+    min-width: 100%;
+
+    padding: calc((50px - 16px) / 2 - 1px);
+
+    margin: 36px 0;
+  }
+}

@@ -1,0 +1,19 @@
+.header__container {
+  display: grid;
+
+  grid-auto-flow: column;
+  column-gap: 24px;
+
+  justify-items: end;
+
+  text-align: right;
+
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    grid-auto-flow: row;
+    row-gap: 5px;
+  }
+}

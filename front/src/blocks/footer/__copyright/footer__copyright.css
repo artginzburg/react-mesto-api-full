@@ -1,0 +1,25 @@
+.footer__copyright {
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #545454;
+  text-decoration-line: none;
+
+  transition-property: opacity, font-size, line-height;
+  transition-duration: .2s;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .footer__copyright:hover {
+    opacity: .6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

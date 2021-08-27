@@ -1,0 +1,14 @@
+.footer {
+  min-height: 138px;
+  max-width: calc(100vw - 19px*2);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 86px;
+  }
+}

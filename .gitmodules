@@ -1,7 +1,0 @@
-[submodule "backend"]
-	path = backend
-	url = https://github.com/artginzburg/express-mesto.git
-[submodule "frontend"]
-	path = frontend
-	url = https://github.com/artginzburg/react-mesto-auth.git
-	branch = react-mesto-api-full

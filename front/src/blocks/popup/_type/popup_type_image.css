@@ -1,0 +1,7 @@
+.popup_type_image::before {
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.popup_type_image {
+  cursor: zoom-out;
+}

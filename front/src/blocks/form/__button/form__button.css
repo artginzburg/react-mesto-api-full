@@ -1,0 +1,56 @@
+.form__button {
+  background-color: #000;
+
+  color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 2px;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  padding: 13px 0;
+
+  cursor: pointer;
+
+  transition-property: opacity, background-color, color, font-size, line-height, margin-top;
+  transition-duration: .2s;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.form__button:first-child {
+  margin-top: 0;
+}
+
+.form__button:not(:disabled):active {
+  transform: scale(.95);
+}
+
+@media (hover: hover) {
+  .form__button:hover {
+    opacity: .8;
+  }
+}
+
+.form__button:disabled {
+  opacity: .2;
+
+  color: #000;
+
+  background-color: transparent;
+
+  cursor: default;
+}
+
+.form__button:disabled:active {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 767px) {
+  .form__button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

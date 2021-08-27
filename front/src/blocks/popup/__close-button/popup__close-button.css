@@ -1,0 +1,57 @@
+.popup__close-button {
+  min-height: 41px;
+  min-width: 41px;
+
+  border: none;
+  outline: none;
+
+  position: absolute;
+
+  background-color: transparent;
+  background-image: url(../../../images/add-icon.svg);
+  transform: rotate(-45deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 0;
+
+  cursor: pointer;
+
+  transition-property: opacity, transform, min-height, min-width, top, right;
+  transition-duration: .2s;
+
+  top: -38px;
+  right: -38px;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.popup__close-button:active {
+  pointer-events: none;
+  opacity: .6;
+  transform: rotate(-45deg) scale(.9);
+}
+
+@media (hover: none) {
+  .popup__close-button {
+    pointer-events: none;
+  }
+}
+
+@media (hover: hover) {
+  .popup__close-button:hover {
+    opacity: .6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__close-button {
+    min-height: 26px;
+    min-width: 26px;
+
+    top: -45px;
+    right: 6px;
+  }
+}

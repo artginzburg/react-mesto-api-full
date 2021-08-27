@@ -1,0 +1,12 @@
+.logo {
+  display: inline-block;
+
+  transition-property: opacity, max-height, max-width;
+  transition-duration: .2s;
+}
+
+@media (hover: hover) {
+  .logo:hover {
+    opacity: .6;
+  }
+}

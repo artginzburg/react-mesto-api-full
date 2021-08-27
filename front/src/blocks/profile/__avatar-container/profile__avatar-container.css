@@ -1,0 +1,85 @@
+.profile__avatar-container {
+  position: relative;
+
+  width: 120px;
+  height: 120px;
+
+  border-radius: 100%;
+
+  pointer-events: none;
+  cursor: url(../../../images/avatar-icon.svg), pointer;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+
+  /* reset default button styles */
+  border: 0;
+  padding: 0;
+
+  transition-property: transform;
+  transition-duration: .2s;
+}
+
+.profile__avatar-container:active {
+  transform: scale(.9);
+}
+
+.profile__avatar-container::before {
+  border-radius: inherit;
+  transform: scale(1.01);
+  box-sizing: border-box;
+
+  pointer-events: all;
+
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, .8);
+  background-image: url(../../../images/edit-icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 47px;
+  background-origin: content-box;
+
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: .6s;
+}
+
+@media (hover: none) {
+  .profile__avatar-container::before {
+    transition-delay: .2s;
+  }
+  .profile__avatar-container:active * {
+    pointer-events: all;
+  }
+  .profile__avatar-container:active::before {
+    opacity: 1;
+
+    transition-delay: .0s;
+    transition-duration: .2s;
+  }
+}
+
+@media (hover: hover) {
+  .profile__avatar-container::before {
+    background-image: none;
+  }
+
+  .profile__avatar-container:hover::before {
+    opacity: 1;
+
+    pointer-events: none;
+
+    transition-duration: .2s;
+  }
+
+  .profile__avatar-container:hover * {
+    pointer-events: all;
+  }
+}

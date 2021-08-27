@@ -1,0 +1,9 @@
+.form__button_theme_dark {
+  background-color: #fff;
+  color: #000;
+}
+
+.form__button_theme_dark:disabled {
+  border-color: #fff;
+  color: #fff;
+}

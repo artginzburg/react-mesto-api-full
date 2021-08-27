@@ -1,0 +1,19 @@
+.form__error {
+  margin: 5px 0 0;
+
+  color: #f00;
+
+  font-size: 12px;
+  line-height: 15px;
+
+  min-height: 15px;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: .4s;
+}

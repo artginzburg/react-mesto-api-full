@@ -1,0 +1,14 @@
+.auth__signin {
+  font-size: 14px;
+  line-height: 17px;
+
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .auth__signin {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

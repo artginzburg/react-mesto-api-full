@@ -1,0 +1,33 @@
+.form__input_theme_dark {
+  color: #fff;
+
+  border-bottom: 2px solid #ccc;
+}
+
+.form__input_theme_dark::placeholder {
+  color: #ccc;
+}
+
+.form__input_theme_dark::-webkit-credentials-auto-fill-button {
+  background-color: #eee;
+  transform: scale(1.2);
+
+  transition-property: transform, opacity;
+  transition-duration: .15s;
+}
+
+.form__input_theme_dark::-webkit-credentials-auto-fill-button:hover {
+  opacity: .7;
+}
+
+.form__input_theme_dark::-webkit-credentials-auto-fill-button:active {
+  transform: scale(.9);
+}
+
+.form__input_theme_dark:-webkit-autofill,
+.form__input_theme_dark:-webkit-autofill:hover, 
+.form__input_theme_dark:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  border-color: #0ff;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+}

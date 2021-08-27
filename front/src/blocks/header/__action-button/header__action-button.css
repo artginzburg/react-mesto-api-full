@@ -1,0 +1,29 @@
+.header__action-button {
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+  text-decoration-line: none;
+
+  transition-property: opacity, transform, font-size, line-height;
+  transition-duration: .2s;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.header__action-button:active {
+  transform: scale(.9);
+}
+
+@media (hover: hover) {
+  .header__action-button:hover {
+    opacity: .6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__action-button {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

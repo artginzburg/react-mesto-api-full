@@ -1,0 +1,9 @@
+.popup__image {
+  max-width: 75vw;
+  max-height: 75vh;
+
+  border-radius: 2px;
+
+  box-shadow: 0 0 10px rgba(255, 255, 255, .1);
+  filter: drop-shadow(0 0 10px #000)
+}

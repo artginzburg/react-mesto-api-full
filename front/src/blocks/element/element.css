@@ -1,0 +1,10 @@
+.element {
+  position: relative;
+
+  background: linear-gradient(transparent, #fff 75%);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  font-size: 0;
+}

@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px) {
+  .popup__close-button_parent-corners_straight {
+    top: -42px;
+    right: -42px;
+  }
+}

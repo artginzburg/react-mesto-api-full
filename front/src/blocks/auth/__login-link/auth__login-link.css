@@ -1,0 +1,15 @@
+.auth__login-link {
+  color: #fff;
+  text-decoration-line: none;
+
+  transition-property: opacity;
+  transition-duration: .2s;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .auth__login-link:hover {
+    opacity: .6;
+  }
+}

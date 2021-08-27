@@ -1,0 +1,17 @@
+.element__title {
+  margin: 0;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  color: #000;
+
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.element__title::first-letter {
+  text-transform: capitalize;
+}
