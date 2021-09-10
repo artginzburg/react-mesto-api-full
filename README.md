@@ -16,5 +16,5 @@
   &nbsp;
   <code><a href="https://github.com/artginzburg/yandex.praktikum-portfolio">Portfolio</a></code>
   &nbsp;
-  <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="https://github.com/artginzburg/movies-explorer-api">Next --></a>
 </p>
